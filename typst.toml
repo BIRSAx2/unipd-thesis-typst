@@ -1,0 +1,17 @@
+[package]
+name = "scholarly-unipd-thesis"
+version = "0.0.1"
+compiler = "0.11.0"
+entrypoint = "src/lib.typ"
+repository = "https://github.com/augustebaum/unipd-thesis-typst"
+authors = ["Mouhieddine Sabir <https://github.com/BIRSAx2>"]
+license = "MIT"
+description = "A template for a thesis at University of Padua"
+keywords = ["thesis", "university", "UniPD", "Padova"]
+categories = ["thesis"]
+exclude = ["latex-reference", "screenshots"]
+
+[template]
+path = "example"
+entrypoint = "main.typ"
+thumbnail = "thumbnail.png"
